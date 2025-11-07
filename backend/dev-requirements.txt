@@ -1,0 +1,18 @@
+# Development / testing requirements
+pytest>=7.0
+pytest-cov>=4.0
+black>=24.0
+isort>=5.12
+flake8>=6.0
+mypy>=1.9
+pre-commit>=3.4
+
+# Optional dev extras
+# ipython for quick REPL: ipython>=8.0
+# tox for multi-env testing: tox>=4.0
+
+# Install with:
+#   py -3.11 -m venv .venv
+#   .\.venv\Scripts\Activate.ps1
+#   pip install --upgrade pip setuptools wheel
+#   pip install -r backend/dev-requirements.txt
