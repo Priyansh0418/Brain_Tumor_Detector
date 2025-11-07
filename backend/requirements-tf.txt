@@ -1,0 +1,9 @@
+## Optional TensorFlow requirements
+# Install this only if you want real model inference and have a compatible Python
+# runtime (on Windows prefer Python 3.10 or 3.11).
+
+# CPU-only TensorFlow (recommended if you don't have a configured CUDA setup)
+tensorflow-cpu>=2.11
+
+# If you have GPU and matching CUDA/cuDNN, you can instead install the full package:
+# tensorflow>=2.11

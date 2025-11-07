@@ -1,0 +1,17 @@
+flask>=2.0
+pillow>=9.0
+numpy>=1.23
+requests>=2.28
+# Note: TensorFlow is optional and **not** required to run the server in dev mode
+# (the server includes a DummyModel fallback when TensorFlow is unavailable).
+# If you need real inference, install TensorFlow separately:
+#   pip install -r backend\requirements-tf.txt
+flask
+tensorflow
+pillow
+numpy
+werkzeug
+
+# Note: tensorflow is large and may require specific system prerequisites (CUDA, etc.)
+# If you only want to run the Flask server without loading a Keras model, you can
+# omit tensorflow when installing.
